@@ -1,0 +1,12 @@
+name: WeAllDie
+version: '${project.version}'
+main: net.sudologic.wealldie.WeAllDie
+api-version: '1.20'
+commands:
+  startgame:
+    description: Teleports all players to the GameWorld.
+    usage: /startgame
+permissions:
+  wealldie.startgame:
+    description: Allows the player to use the /startgame command.
+    default: op
